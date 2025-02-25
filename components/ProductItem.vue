@@ -14,11 +14,11 @@
       props: ['product', 'index'],
       methods: {
         increaseQuantity() {
-          this.$emit('update-quantity', this.index, this.product.quantity + 1);
+          this.$emit('update-quantity', this.product.quantity + 1);
         },
         decreaseQuantity() {
           if (this.product.quantity > 0) {
-            this.$emit('update-quantity', this.index, this.product.quantity - 1);
+            this.$emit('update-quantity', this.product.quantity - 1);
           }
         },
       },

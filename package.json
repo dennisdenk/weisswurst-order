@@ -1,19 +1,21 @@
 {
-      "name": "my-nuxt-app",
-      "version": "1.0.0",
-      "private": true,
-      "scripts": {
-        "build": "nuxt build",
-        "dev": "nuxt dev",
-        "generate": "nuxt generate",
-        "postinstall": "nuxt prepare",
-        "preview": "nuxt preview"
-      },
-      "dependencies": {
-        "@nuxtjs/tailwindcss": "^6.8.0",
-        "nuxt": "^3.6.2"
-      },
-      "devDependencies": {
-        "tailwindcss": "^3.3.3"
-      }
-    }
+  "name": "my-nuxt-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "postinstall": "nuxt prepare",
+    "preview": "nuxt preview"
+  },
+  "dependencies": {
+    "@nuxtjs/supabase": "^1.4.6",
+    "@nuxtjs/tailwindcss": "^6.8.0",
+    "@tailwindcss/vite": "^4.0.8",
+    "nuxt": "^3.6.2"
+  },
+  "devDependencies": {
+    "tailwindcss": "^4.0.8"
+  }
+}
